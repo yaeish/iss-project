@@ -222,6 +222,6 @@ cipher = sdes_encryption(plaintext, [0,1,0,1,1,0,0,1,1,1])
 
 decrypted = sdes_decryption(cipher, [0,1,0,1,1,0,0,1,1,1])
 
-print("Plaintext: ", plaintext)
-print("Cipher text: ", cipher)
+# print("Plaintext: ", plaintext)
+# print("Cipher text: ", cipher)
 print("Decrypted text: ", decrypted)
